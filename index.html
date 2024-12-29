@@ -497,7 +497,7 @@
       </form>
     </footer>
     <!-- ============ MODAL ============== -->
-    <div class="backdrop in-open">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="button-modal">
           <svg class="btn-close" width="8" height="8">
@@ -561,21 +561,22 @@
             </form>
           </div>
 
-          <div>
-            <form>
-              <label for="privacy">
-                <input type="checkbox" name="privacy" value="privacy_policy" />
-              </label>
-              <p class="text-privacy">
-                I accept the terms and conditions of the
-                <span class="bluetext">Privacy Policy</span>
-              </p>
-            </form>
+          <div class="form-wrapper-checkbox">
+              <input class="checkbox visually-hidden" type="checkbox"  name="user-privacy" required id="user-privacy" value="true"/>
+               <label class="form-user-checkbox" for="user-privacy"  >
+              <span class="castom-checkbox">
+             
+                <svg class="castom-checkbox-icon" width="10" height="8">
+                  <use href="./images/checkbox.svg#icon-Checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="#" class="blue">Privacy Policy</a>
+            </label>
           </div>
-
-          <div class="">
-            <button class="btn-modal">Send</button>
-          </div>
+            <button class="btn-modal" type="submit">Send</button>
+        </form>
+      </div>
         </div>
       </div>
     </div>
