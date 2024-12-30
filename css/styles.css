@@ -762,10 +762,13 @@ fill: #4D5AE5;
     margin-bottom: 24px;
 }
 
-.checkbox-input:checked + .checkbox-icon{
-    background-color: #404bbf;
+.checkbox-input:checked+label .castom-checkbox {
+    background-color: var(--checkbox-bg);
     border: none;
-    fill: #f4f4fd;
+}
+
+.checkbox-input:checked+label .castom-checkbox svg {
+    fill: var(--checkbox-fill);
 }
 
 .form-user-checkbox{
