@@ -762,7 +762,7 @@ fill: #4D5AE5;
     margin-bottom: 24px;
 }
 
-.checkbox-input:checked + .form-user-checkbox .checkbox-icon{
+.checkbox-input:checked + .checkbox-icon{
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
