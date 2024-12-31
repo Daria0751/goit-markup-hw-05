@@ -765,12 +765,17 @@ fill: #4D5AE5;
 .checkbox-input:hover,
 .checkbox-input:focus {
     border-color: #4d5ae5;
-
 }
 
 .checkbox-input:focus+.checkbox-icon,
 .checkbox-input:hover+.checkbox-icon {
     fill: #4d5ae5;
+}
+
+.checkbox-input:checked+.form-user-checkbox > .checkbox-icon{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .form-user-checkbox{
