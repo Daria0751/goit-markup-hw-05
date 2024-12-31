@@ -772,11 +772,12 @@ fill: #4D5AE5;
     fill: #4d5ae5;
 }
 
-.checkbox-input:checked+.form-user-checkbox > .checkbox-icon{
-    background-color: #404bbf;
+.checkbox-input:checked+.form-user-checkbox>.castom-checkbox{
+background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
+    
 
 .form-user-checkbox{
     font-size: 12px;
