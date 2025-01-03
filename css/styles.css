@@ -657,10 +657,7 @@ margin-bottom: 16px;
 }
 
 .form{
-border: 1px solid #4d5ae5;
     border-radius: 4px;
-    width: 360px;
-    height: 40px;
 }
 
 .form:focus-within{
@@ -760,6 +757,13 @@ fill: #4D5AE5;
 
 .checkbox{
     margin-bottom: 24px;
+}
+
+.checkbox-input{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
 
 .checkbox-input:hover,
